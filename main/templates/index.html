@@ -5,13 +5,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Project</title>
+  <title>Aparo Cecilia</title>
   <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
 
   <link rel="stylesheet" href="{% static 'fonts/flat-icon/flaticon.css' %}">
   <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
   
   
   
@@ -31,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
           </button>
-          <a class="navbar-brand" href="#">OBELA</a>
+          <a class="navbar-brand" href="#">MY PORTFOLIO</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -47,11 +50,11 @@
       </nav>
       <div class="header__content text-center">
         <span class="header__content__block">HELLO</span>
-        <h1 class="header__content__title">I'M JOHNNY D. DORSCH</h1>
+        <h1 class="header__content__title">I'M APARO CECILIA</h1>
         <ul class="header__content__sub-title">
           <li>UI&#47;UX DESIGNER <span class="padding">&#45;</span></li>
           <li>WEB DEVELOPER <span class="padding">&#45;</span></li>
-          <li>PHOTOGRAPHAR</li>
+          <li>GRAPHICS DESIGNER</li>
         </ul>
         <a class="header__button" href="#">HAVE PROJECT? LET'S TALK</a>
       </div>
@@ -72,7 +75,24 @@
         <h2 class="page-section__title">ABOUT ME</h2>
         {% load static %}
         <img class="page-section__title-style" src="{% static 'images/title-style.png' %}" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="page-section__paragraph">I am a passionate tech enthusiast and a dedicated software
+           engineer, currently in my fourth year at Makerere University. My journey in tech is fueled 
+           by an unwavering curiosity for trending technologies and a deep passion for software 
+           development and its evolving landscape.
+
+          I actively engage with modern frameworks, system development and UI/UX design, striving
+           to create impactful, user-centric technology solutions that drive
+            innovation. I specialize in developing web and mobile applications, integrating scalable 
+            systems, exploring cloud computing, and incorporating DevOps practices.
+          
+          My academic and professional pursuits also include interests in AI and machine learning, 
+          where I aim to enhance user experiences by solving complex problems and ensuring software 
+          quality and performance.
+          
+          Beyond technical skills, I thrive in collaborative environments, embracing peer engagement 
+          as a means of fostering growth and driving impactful projects. I am committed to making 
+          technology accessible and meaningful, while contributing to projects that leave a lasting 
+          impact. </p>
           <div class="row gutters-80">
             <div class="col-md-4">
               <div class="about__image">
@@ -80,15 +100,19 @@
               </div>
             </div>
             <div class="col-md-8 about__content">
-              <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              <p class="about__description">I’m a passionate software engineer and tech enthusiast, 
+                blending creativity with cutting-edge technology to build impactful, user-focused
+                 solutions. Driven by innovation, I specialize in crafting web and mobile applications, 
+                 exploring AI, and shaping the future of tech. Let’s create something extraordinary 
+                 together!</p>
               <div class="row row--margin-top">
                 <div class="col-md-4">
-                  <p class="about__bio"><strong>NAME :</strong> Jonny D. Dorsch</p>
-                  <p class="about__bio"><strong>AGE :</strong> 21</p>
+                  <p class="about__bio"><strong>NAME :</strong>APARO CECILIA</p>
+                  <p class="about__bio"><strong>AGE :</strong> 23</p>
                 </div>
                 <div class="col-md-4">
-                  <p class="about__bio"><strong>JOB TITLE :</strong> UI&#47;UX Designer</p>
-                  <p class="about__bio"><strong>LOCATION :</strong> California,USA</p>
+                  <p class="about__bio"><strong>JOB TITLE :</strong> OPERATIONS OFFICER</p>
+                  <p class="about__bio"><strong>LOCATION :</strong>KAMPALA, UG</p>
                 </div>
               </div>
               <div class="row">
@@ -110,12 +134,16 @@
       <div class="page-section">
         <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
         <img class="page-section__title-style" src="{% static 'images/title-style-white.png' %}" alt="">
-        <p class="page-section__paragraph page-section__paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="page-section__paragraph page-section__paragraph--white">I am a versatile tech
+           enthusiast with expertise in UI/UX design using Figma, web development in Django, and
+            graphics design powered by AI tools. My skills extend to data visualization and analysis 
+            with Jupyter, Power BI, and Excel, enabling me to craft seamless, data-driven, and visually 
+            compelling solutions. </p>
         <div class="row gutters-60">
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="{% static '/images/adobe-photoshop.png' %}" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <h4 class="skill__single-part__title">WEB DEVELOPMENT</h4>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
                 </div>
@@ -125,7 +153,7 @@
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="{% static '/images/adobe-illustrator.png' %}" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <h4 class="skill__single-part__title">DATA ANALYSIS</h4>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:80%;background-color: #FFAC1B;;">
                 </div>
@@ -135,7 +163,7 @@
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="{% static '/images/adobe-after-effects.png' %}" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <h4 class="skill__single-part__title">UI/UX DESIGNING</h4>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
                 </div>
@@ -152,40 +180,45 @@
       <div class="page-section">
         <h2 class="page-section__title">MY SERVICES</h2>
         <img class="page-section__title-style" src="{% static '/images/title-style.png' %} " alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="page-section__paragraph">From crafting intuitive UI/UX designs and developing dynamic
+           Django-powered web applications to delivering insightful data visualizations, my services are 
+           tailored to turn ideas into impactful solutions. Let’s bring your vision to life! </p>
         <div class="row gutters-70">
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="{% static '/images/logo-design.png' %} " alt="">
-              <h4 class="service__single-section__title">LOGO DESIGN</h4>
-              <p class="service__single-section__paragraph">magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <h4 class="service__single-section__title">DATA ANALYSIS</h4>
+              <p class="service__single-section__paragraph">I specialize in transforming raw data into actionable insights using tools like Jupyter Notebook, Google Colab, Power BI, and Excel. Whether it's visualizing trends or analyzing complex datasets, I deliver solutions that drive informed decision-making. </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="{% static '/images/website-design.png' %}" alt="">
               <h4 class="service__single-section__title">WEBSITE DESIGN</h4>
-              <p class="service__single-section__paragraph">magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <p class="service__single-section__paragraph">I create responsive, user-friendly websites tailored to your needs. From sleek designs in WordPress to custom web applications, I ensure your online presence stands out and performs seamlessly. </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="{% static '/images/support.png' %}" alt="">
-              <h4 class="service__single-section__title">SUPPORT</h4>
-              <p class="service__single-section__paragraph">magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <h4 class="service__single-section__title">TECHNICAL SUPPORT</h4>
+              <p class="service__single-section__paragraph">I can as well provide ICT technical support services, I offer a wide range of services, including hardware and software troubleshooting,system updates, user training and ensuring optimal IT infrastructure performance. Your tech issues, solved efficiently </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
   <section class="portfolio">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY PORTFOLIO</h2> 
         <img class="page-section__title-style" src="{% static '/images/title-style.png' %}" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="page-section__paragraph">My journey is enriched by attending various tech events,
+           workshops, and conferences, where I’ve gained valuable knowledge and hands-on experience. 
+           These experiences have shaped my skills in web development, data analysis, and UI/UX design, 
+           fueling my passion for continuous learning and innovation.</p>
         <div class="portfolio__button-group">
           <a class="button button--default" data-filter="all" href="#">ALL</a>
           <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
@@ -286,6 +319,7 @@
   </section>
 
   <section class="slider slider--bg">
+    <h2 class="page-section__title" style="color: white;">MY ACHIEVEMENTS</h2>
     <div id="myCarousel" class="carousel container slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -299,7 +333,7 @@
             <div class="">
               <div class="text-center">
                 <img src="{% static '/images/me.png' %}" alt="">
-                <h4>Michael T. Hill</h4>
+                <h4> </h4>
                 <h6>Designer</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
                 <div class="rating">
@@ -607,24 +641,33 @@
 
   <footer class="footer footer--bg">
     <div class="container text-center">
-      <h1 class="footer__title">OBELA</h1>
+      <h1 class="footer__title">CECILIA</h1>
       <ul class="footer__contact-information">
-        <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+123) 45 67 89 21</a></li>
-        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> sshahriar458@gmail.com</a></li>
-        <li><a href="#"><i class="material-icons">location_on</i> DartThemes address goes here.</a></li>
+        <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+256) 776178913</a></li>
+        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> aparocecilia930@gmail.com</a></li>
+        <li><a href="#"><i class="material-icons">location_on</i> Uganda-Kampala</a></li>
       </ul>
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
     <div class="container text-center">
       <div class="social-icon">
-        <ul>
+        <!-- <ul>
           <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
           <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
           <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
           <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+        </ul> -->
+
+        <ul>
+          <li><a href="https://www.linkedin.com/in/aparo-cecilia-8710bb254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://x.com/CecilHeavens"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://github.com/APAROCECILIA" class="github"><i class="fab fa-github"></i></a></li>
         </ul>
+        
+        
+
       </div>
-      <p class="footer__paragraph">Copyright &copy; 2017 DartThemes , All Rights Reserved.</p>
+      <p class="footer__paragraph">Copyright &copy; 2024 AparoCecilia , All Rights Reserved.</p>
     </div>
   </footer>
 </div>
