@@ -78,7 +78,7 @@ html,body {
 }
 
 .header--bg{
-  background: url("/static/images/header-background.png") no-repeat;
+  background: url("/static/images/galaxy b.jpg") no-repeat;
   background-size: cover;
   position: relative;
   background-color: transparent;
@@ -86,20 +86,6 @@ html,body {
   z-index: 1;
 }
 
-
-
-
-/* 
-.header--bg:after{
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: -webkit-linear-gradient( 90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);
-  z-index: -1;
-} */
 
 
 .header--bg:after {
@@ -277,11 +263,23 @@ html,body {
   display: block;
 }
 
-@media screen and (max-width: 991px){
-  .about__image{
-   text-align: center;
- }
-}
+
+/* @media screen and (max-width: 991px) {
+  .about__image {
+      margin-right: 20px; 
+  } */
+
+
+/* .about__image img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  text-align: left;
+  width: 80%;
+} */
+
+
+
 
 .about__bio{
   font-size: 15px;
