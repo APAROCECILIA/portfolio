@@ -25,14 +25,37 @@ body{
 }
 
 @media (min-width: 1400px) {
-  .container{
-    width:1370px;
+  .container {
+    width: 1450px;
     margin: 0 auto;
-     display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; 
+    padding: 0 15px;
+  }
+  .row g-3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap between items */
+  }
+  .col-md-6 col-lg-3{
+    flex: 0 0 25%; /* Ensures all items occupy equal width */
+    max-width: 25%; /* Prevents any column from exceeding 25% width */
+    box-sizing: border-box;
   }
 }
+
+.thumbnail img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.row {
+  align-items: stretch; /* Ensures all items align consistently */
+}
+
+
+
+
+
 
 ul li{
   list-style-type: none;
