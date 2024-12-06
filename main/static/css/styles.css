@@ -137,20 +137,20 @@ html,body {
 .header__content__block{
   font-size: 50px;
   font-weight: bold;
-  color: #fff;
+  color: #ff9800;
 }
 
 .header__content__title{
   font-size: 50px;
   font-weight: bold;
-  color: #fff;
+  color: #ff9800;
   margin-top: 0;
 }
 
 .header__content__sub-title li{
   display: inline-block;
   font-size: 15px;
-  color: #e6e6e6;
+  color: #ff9800 ;
 }
 
 .header__content__sub-title .padding{
@@ -164,7 +164,7 @@ html,body {
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
-  color: #7f56fd;
+  color:   #6a1b9a;
   font-family: Roboto-Light;
   font-weight: bold;
   margin-top: 30px;
@@ -172,7 +172,7 @@ html,body {
 
 .navbar .navbar-nav > li > a, .navbar .navbar-brand, .navbar .navbar-nav > li > a:focus{
   background-color: transparent;
-  color: #fff;
+  color: #ff9800;
 }
 
 .nav li a{
@@ -199,9 +199,10 @@ html,body {
   font-size: 25px;
   font-family: Roboto-Light;
   font-weight: bold;
-  background: url("../assets/images/logo.png") no-repeat;
+  background: url("/static/images/logo.png") no-repeat;
   padding-left: 45px;
   background-position: left center;
+  color: #ff9800;
 }
 
 @media (min-width: 768px) {
@@ -221,17 +222,31 @@ html,body {
   z-index: 447;
 }
 
-.social-icon{
+
+
+.social-icon ul {
+  list-style-type: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.social-icon ul li {
+  display: inline-block; /* Ensures the list items are laid out horizontally */
+  margin-right: 10px; /* Adjust the value to control the spacing between icons */
   margin-bottom: 60px;
 }
 
-.social-icon ul li{
-  display: inline-block;
+.social-icon ul li a {
+  color: #fff;
+  text-decoration: none; /* Optional: removes underline */
 }
 
-.social-icon ul li a{
-  color: #fff;
-}
+
+
+
+
+
+
 
 .page-section{
 	margin-top: 100px;
