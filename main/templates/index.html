@@ -60,16 +60,6 @@
       </div>
 
 
-      <!-- <div class="social-icon pull-right">
-        <ul>
-          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-        </ul>
-      </div> -->
-
-
 
       <div class="social-icon pull-right">
         <ul>
@@ -88,18 +78,27 @@
         <h2 class="page-section__title">ABOUT ME</h2>
         {% load static %}
         <img class="page-section__title-style" src="{% static 'images/title-style.png' %}" alt="">
-        <p class="page-section__paragraph" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+      
+
+        <p class="page-section__paragraph">
           I am a passionate tech enthusiast and a dedicated software engineer, currently in my fourth year at Makerere University. My journey in tech is fueled by an unwavering curiosity for trending technologies and a deep passion for software development and its evolving landscape.
           <br><br>
-          I actively engage with modern frameworks, system development and UI/UX design, striving to create impactful, user-centric technology solutions that drive innovation. I specialize in developing web and mobile applications, integrating scalable systems, exploring cloud computing, and incorporating DevOps practices.
+          I actively engage with modern frameworks, system development, and UI/UX design, striving to create impactful, user-centric technology solutions that drive innovation. I specialize in developing web and mobile applications, integrating scalable systems, exploring cloud computing, and incorporating DevOps practices.
           <br><br>
           Beyond technical skills, I thrive in collaborative environments, embracing peer engagement as a means of fostering growth and driving impactful projects. I am committed to making technology accessible and meaningful, while contributing to projects that leave a lasting impact.
       </p>
       
+
+
+      <hr class="purple-line">
+
+       
+      
           <div class="row gutters-80">
             <div class="col-md-4">
               <div class="about__image">
-                <img src="{% static 'images/about-me-image.png' %}" alt="">
+                <img src="{% static 'images/soft.jpg' %}" alt="" style="margin-top: 100px;">
+
               </div>
             </div>
             <div class="col-md-8 about__content">
@@ -120,8 +119,11 @@
               </div>
               <div class="row">
                 <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="#">DOWNLOAD CV</a>
-                </div>
+                  <!-- <a class="button button--colorful button--margin" href="https://drive.google.com/file/d/1kZ-3u_KTsjK1XDgHc-YdQ_QnVsSltLCI/view?usp=sharing" target="_blank">VIEW CV</a> -->
+                      <a class="button button--colorful button--margin" href="https://drive.google.com/uc?export=download&id=1kZ-3u_KTsjK1XDgHc-YdQ_QnVsSltLCI" target="_blank">DOWNLOAD CV</a>
+
+              </div>
+              
                 <div class="col-md-4">
                   <a class="button button--colorful button--margin" href="#">HIRE ME</a>
                 </div>
@@ -324,7 +326,7 @@
   <section class="slider slider--bg">
     <div class ="container">
       <div class = "page-section">
-    <h2 class="page-section__title" style="color: #f9f9f9;">MY ACHIEVEMENTS</h2>
+    <h2 class="page-section__title">MY ACHIEVEMENTS</h2>
     <img class="page-section__title-style" src="{% static 'images/title-style-white.png' %}" alt="">
     <div id="myCarousel" class="carousel container slide" data-ride="carousel">
       <ol class="carousel-indicators">

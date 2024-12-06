@@ -232,7 +232,7 @@ html,body {
 
 .social-icon ul li {
   display: inline-block; /* Ensures the list items are laid out horizontally */
-  margin-right: 10px; /* Adjust the value to control the spacing between icons */
+  margin-right: 20px; /* Adjust the value to control the spacing between icons */
   margin-bottom: 60px;
 }
 
@@ -253,6 +253,7 @@ html,body {
 	margin-bottom: 100px;
   margin-top: 60px;
   max-width: 1200px;
+  color: #ff9800;
 }
 
 
@@ -266,7 +267,7 @@ letter-spacing: 1px;
 
 
 .page-section__title--white{
-  color: #fff;
+  color: #ff9800;
 }
 
 .page-section__title-style{
@@ -299,6 +300,7 @@ letter-spacing: 1px;
 
 .about__content{
   padding-top: 70px;
+  margin-bottom: 0%;
 }
 
 .about__description{
@@ -307,6 +309,15 @@ letter-spacing: 1px;
   padding-bottom: 25px;
   border-bottom: 1px #C1C1C1 dashed;
   display: block;
+}
+
+
+
+.purple-line {
+  border: 0;
+  height: 2px;
+  background-color: purple;
+  margin: 20px 0;
 }
 
 
