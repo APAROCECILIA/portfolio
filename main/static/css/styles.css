@@ -643,7 +643,7 @@ letter-spacing: 1px;
 }
 
 .slider--bg{
-  background: url("/static/images/slider-background.jpg") no-repeat;
+  background: url("/static/images/skill-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -901,7 +901,7 @@ letter-spacing: 1px;
 }
 
 .brand-logo--bg{
-  background: url("../assets/images/brand-logo-background.png") no-repeat;
+  background: url("/static/images/skill-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -914,7 +914,7 @@ letter-spacing: 1px;
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  /* background-color: rgba(120, 88, 221, .9); */
   z-index: -1;
 }
 
