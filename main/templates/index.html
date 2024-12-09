@@ -107,6 +107,7 @@
                  solutions. Driven by innovation, I specialize in crafting web and mobile applications, 
                  exploring AI, and shaping the future of tech. Let’s create something extraordinary 
                  together!</p>
+                 
               <div class="row row--margin-top">
                 <div class="col-md-4">
                   <p class="about__bio"><strong>NAME :</strong>APARO CECILIA</p>
@@ -117,16 +118,20 @@
                   <p class="about__bio"><strong>LOCATION :</strong>KAMPALA, UG</p>
                 </div>
               </div>
+
               <div class="row">
                 <div class="col-md-4">
-                  <!-- <a class="button button--colorful button--margin" href="https://drive.google.com/file/d/1kZ-3u_KTsjK1XDgHc-YdQ_QnVsSltLCI/view?usp=sharing" target="_blank">VIEW CV</a> -->
-                      <a class="button button--colorful button--margin" href="https://drive.google.com/uc?export=download&id=1kZ-3u_KTsjK1XDgHc-YdQ_QnVsSltLCI" target="_blank">DOWNLOAD CV</a>
-
-              </div>
+                      <button id="cvButton"  class="button button--colorful button--margin" >CHECK CV</button>
+               </div>
               
                 <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="#">HIRE ME</a>
-                </div>
+                  <a class="button button--colorful button--margin" 
+                  id="hireMeBtn" 
+                  href="https://wa.me/0776178913" 
+                  target="_blank">
+                  HIRE ME
+               </a> 
+              </div>
               </div>
             </div>
           </div>
@@ -579,6 +584,30 @@
 <script src="{% static 'jquery/jquery-3.2.1.min.js' %}"></script>
 <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/mixitup.js' %}"></script>
+
+<script>
+  document.getElementById("cvButton").addEventListener("click", function() {
+    window.open("https://drive.google.com/uc?export=download&id=1ELBU88mRX37zozsby9V8PZ43X47Qy3qu", "_blank");
+  });
+</script>
+
+<script>
+  
+  document.getElementById('hireMeBtn').addEventListener('click', function(event) {
+    event.preventDefault(); 
+    
+    
+    const phoneNumber = "+256776178913"; 
+    const message = encodeURIComponent("Hello, I am interested in hiring you!");
+    
+
+    const waLink = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(waLink, '_blank'); 
+  });
+</script>
+
+
+
 
 
   <script>

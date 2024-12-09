@@ -371,18 +371,20 @@ letter-spacing: 1px;
 }
 
 .button:hover{
- color: #fff;
+ color: purple;
 }
 
 .button--colorful{
- background-color: #7F56FD;
+ background-color: #ff9800;
  font-family: Roboto-Light;
  color: #fff;
+ border: 3px solid purple;
+ 
 }
 
 .button--default{
-  color: #455a64;
-  border: 1px solid #455a64;
+  color: #7F56FD;
+  border: 1px solid #7F56FD;
   margin-right: 15px;
 }
 
@@ -403,7 +405,7 @@ letter-spacing: 1px;
 }
 
 .skill--bg{
-  background: url("../assets/images/skill-background.png") no-repeat;
+  background: url("/static/images/skill-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -416,7 +418,7 @@ letter-spacing: 1px;
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  /* background-color: rgba(120, 88, 221, .9); */
   z-index: -1;
 }
 
@@ -641,7 +643,7 @@ letter-spacing: 1px;
 }
 
 .slider--bg{
-  background: url("../assets/images/slider-background.png") no-repeat;
+  background: url("/static/images/slider-background.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -654,7 +656,7 @@ letter-spacing: 1px;
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  /* background-color: rgba(120, 88, 221, .9); */
   z-index: -1;
 }
 
