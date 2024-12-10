@@ -2,21 +2,21 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/fonts/Roboto-Regular.ttf);
+  src: url("/static/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url(../assets/fonts/Roboto-Bold.ttf);
+  src: url("/static/fonts/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 300;
-  src: url(../assets/fonts/Roboto-Light.ttf);
+  src: url("/static/fonts/Roboto-Light.ttf");
 }
 
 body{
@@ -53,10 +53,6 @@ body{
 }
 
 
-
-
-
-
 ul li{
   list-style-type: none;
 }
@@ -73,7 +69,7 @@ a:hover, a:focus{
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/iconfont/MaterialIcons-Regular.ttf);
+  src: url( "/static/iconfont/MaterialIcons-Regular.ttf");
 }
 
 .material-icons {
@@ -101,16 +97,25 @@ html,body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
+  scroll-behavior: smooth; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+  
 }
+
+
 
 .header--bg{
   background: url("/static/images/galaxy b.jpg") no-repeat;
+  
   background-size: cover;
-  position: relative;
+  background-position: center;
   background-color: transparent;
   opacity: 1;
   z-index: 1;
-}
+  filter: contrast(1.1) brightness(1.05);
+} 
 
 
 
@@ -121,9 +126,9 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: none;  /* Remove gradient */
+  background: none;  
   z-index: -1;
-}
+} 
 
 
 
@@ -160,15 +165,22 @@ html,body {
 
 .header__button{
   padding: 11px 30px;
-  background-color: #fff;
+  background-color:  #ff9800;
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
-  color:   #6a1b9a;
+  color: #fff  ;
   font-family: Roboto-Light;
   font-weight: bold;
   margin-top: 30px;
+
 }
+
+#callButton:hover {
+  color: purple; 
+}
+
+
 
 .navbar .navbar-nav > li > a, .navbar .navbar-brand, .navbar .navbar-nav > li > a:focus{
   background-color: transparent;
@@ -199,8 +211,8 @@ html,body {
   font-size: 25px;
   font-family: Roboto-Light;
   font-weight: bold;
-  background: url("/static/images/logo.png") no-repeat;
-  padding-left: 45px;
+  background: url("/static/images/icon.png") no-repeat;
+  padding-left: 90px;
   background-position: left center;
   color: #ff9800;
 }
@@ -242,19 +254,12 @@ html,body {
 }
 
 
-
-
-
-
-
-
 .page-section{
-	margin-top: 100px;
-	margin-bottom: 100px;
-  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-top: 100px;  
   max-width: 1200px;
   color: #ff9800;
-}
+} 
 
 
 .page-section__title {
@@ -274,17 +279,19 @@ letter-spacing: 1px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 30px;
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
 
 .page-section__paragraph{
   font-size: 15px;
   color: #5d5d5d;
-  max-width: 540px;
+  max-width: 1000px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 60px;
+  margin-top: 15px;
 }
 
 .page-section__paragraph--white{
@@ -319,24 +326,6 @@ letter-spacing: 1px;
   background-color: purple;
   margin: 20px 0;
 }
-
-
-/* @media screen and (max-width: 991px) {
-  .about__image {
-      margin-right: 20px; 
-  } */
-
-
-/* .about__image img {
-  width: 100%; 
-  height: auto; 
-  display: block; 
-  text-align: left;
-  width: 80%;
-} */
-
-
-
 
 .about__bio{
   font-size: 15px;
@@ -378,7 +367,7 @@ letter-spacing: 1px;
  background-color: #ff9800;
  font-family: Roboto-Light;
  color: #fff;
- border: 3px solid purple;
+ border: 1px solid purple;
  
 }
 
@@ -405,7 +394,7 @@ letter-spacing: 1px;
 }
 
 .skill--bg{
-  background: url("/static/images/skill-background.png") no-repeat;
+  background: url("/static/images/banner.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -643,7 +632,7 @@ letter-spacing: 1px;
 }
 
 .slider--bg{
-  background: url("/static/images/skill-background.png") no-repeat;
+  background: url("/static/images/why.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;

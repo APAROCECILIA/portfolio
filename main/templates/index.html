@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Aparo Cecilia</title>
-  <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
-  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
+  <meta name="keywords" content="Portfolio">
+  <meta name="description" content="Aparo Cecilia">
 
   <link rel="stylesheet" href="{% static 'fonts/flat-icon/flaticon.css' %}">
   <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
@@ -15,13 +15,6 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-  
-  
-  
-  
-  <!-- <link rel="stylesheet" href="{% static '/fonts/flat-icon/flatic' %}on.css">
-  <link rel="stylesheet" href="{% static '/bootstrap/css/bootstra' %}p.min.css">
-  <link rel="stylesheet" href="css/styles.css"> -->
 </head>
 <body>
 <div id="content-wrapper">
@@ -38,13 +31,13 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILL</a></li> 
-            <li><a href="#">PORTFOLIO</a></li> 
-            <li><a href="#">ACHIEVEMENTS</a></li> 
-            <li><a href="#">PROJECTS</a></li> 
-            <li><a href="#">TECH GROUPS</a></li> 
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILL</a></li> 
+            <li><a href="#portfolio">PORTFOLIO</a></li> 
+            <li><a href="#achievements">ACHIEVEMENTS</a></li> 
+            <li><a href="#projects">PROJECTS</a></li> 
+            <li><a href="#tech-groups">TECH-GROUPS</a></li> 
           </ul>
         </div>
       </nav>
@@ -56,27 +49,36 @@
           <li>WEB DEVELOPER <span class="padding">&#45;</span></li>
           <li>UI&#47;UX DESIGNER </span></li>
         </ul>
-        <a class="header__button" href="#">HAVE PROJECT? LET'S TALK</a>
+       <a class="header__button" href="#" id="callButton">HAVE PROJECT? LET'S TALK</a> 
       </div>
-
-
 
       <div class="social-icon pull-right">
         <ul>
-          <li><a href="https://www.linkedin.com/in/aparo-cecilia-8710bb254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="https://x.com/CecilHeavens"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://github.com/APAROCECILIA" class="github"><i class="fab fa-github"></i></a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/aparo-cecilia-8710bb254" class="linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com/CecilHeavens" class="twitter" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/APAROCECILIA" class="github" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
         </ul>
-      </div>
-
+    </div>
     </div>
   </header>
 
-  <section class="about">
+  <section id="about" class="about">
     <div class="container about__container--narrow">
       <div class="page-section">
         <h2 class="page-section__title">ABOUT ME</h2>
-        {% load static %}
+      
         <img class="page-section__title-style" src="{% static 'images/title-style.png' %}" alt="">
       
 
@@ -139,7 +141,7 @@
     </div>
   </section>
 
-  <section class="skill skill--bg">
+  <section id="skill" class="skill skill--bg">
     <div class="container skill__container--narrow">
       <div class="page-section">
         <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
@@ -189,7 +191,7 @@
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY SERVICES</h2>
-        <img class="page-section__title-style" src="{% static '/images/title-style.png' %} " alt="">
+        <img class="page-section__title-style" src="{% static '/images/title-style.jpg' %} " alt="">
         <p class="page-section__paragraph">From crafting intuitive UI/UX designs and developing dynamic
            Django-powered web applications to delivering insightful data visualizations, my services are 
            tailored to turn ideas into impactful solutions. Let’s bring your vision to life! </p>
@@ -220,7 +222,7 @@
     </div>
   </section>
   
-  <section class="portfolio">
+  <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY PORTFOLIO</h2> 
@@ -328,7 +330,7 @@
     </div>
   </section>
 
-  <section class="slider slider--bg">
+  <section id="achievements" class="slider slider--bg">
     <div class ="container">
       <div class = "page-section">
     <h2 class="page-section__title">MY ACHIEVEMENTS</h2>
@@ -413,7 +415,7 @@
     
   </section>
 
-<section class="team">
+<section id="projects" class="team">
     <div class="container">
       <div class="page-section">
         <div class="row g-3">
@@ -517,7 +519,7 @@
     </div>
   </section>
 
-  <section class="blog">
+  <section  id="tech-groups" class="blog">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">TECH-GROUPS</h2>
@@ -568,13 +570,36 @@
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
     <div class="container text-center">
-      <div class="social-icon">
+      <!-- <div class="social-icon">
         <ul>
           <li><a href="https://www.linkedin.com/in/aparo-cecilia-8710bb254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
           <li><a href="https://x.com/CecilHeavens"><i class="fab fa-twitter"></i></a></li>
           <li><a href="https://github.com/APAROCECILIA" class="github"><i class="fab fa-github"></i></a></li>
         </ul>
-      </div>
+      </div> -->
+
+      <div class="social-icon">
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/aparo-cecilia-8710bb254" class="linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com/CecilHeavens" class="twitter" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/APAROCECILIA" class="github" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
       <p class="footer__paragraph">Copyright &copy; 2024 AparoCecilia , All Rights Reserved.</p>
     </div>
   </footer>
@@ -584,6 +609,46 @@
 <script src="{% static 'jquery/jquery-3.2.1.min.js' %}"></script>
 <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/mixitup.js' %}"></script>
+
+
+
+
+ <script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const targetSection = document.querySelector(this.getAttribute('href'));
+      targetSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
+  });
+
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+<script>
+    // Add event listeners for all icons
+    document.querySelectorAll('.social-icon a').forEach(icon => {
+        icon.addEventListener('click', function (event) {
+            const url = this.getAttribute('href');
+            window.open(url, '_blank'); 
+        });
+    });
+</script>
+
+
+<script>
+  document.getElementById('callButton').addEventListener('click', function() {
+    window.location.href = 'tel:0776178913'; 
+  });
+</script>
 
 <script>
   document.getElementById("cvButton").addEventListener("click", function() {
