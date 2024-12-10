@@ -154,7 +154,7 @@
         <div class="row gutters-60">
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="{% static '/images/adobe-photoshop.png' %}" alt="">
+              <img src="{% static '/images/dj.jpg' %}" alt="">
               <h4 class="skill__single-part__title">WEB DEVELOPMENT</h4>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
@@ -164,7 +164,7 @@
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="{% static '/images/adobe-illustrator.png' %}" alt="">
+              <img src="{% static '/images/BI.jpg' %}" alt="">
               <h4 class="skill__single-part__title">DATA ANALYSIS</h4>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:80%;background-color: #FFAC1B;;">
@@ -174,7 +174,7 @@
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="{% static '/images/adobe-after-effects.png' %}" alt="">
+              <img src="{% static '/images/uiux.png' %}" alt="">
               <h4 class="skill__single-part__title">UI/UX DESIGNING</h4>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
@@ -330,90 +330,104 @@
     </div>
   </section>
 
-  <section id="achievements" class="slider slider--bg">
-    <div class ="container">
-      <div class = "page-section">
-    <h2 class="page-section__title">MY ACHIEVEMENTS</h2>
-    <img class="page-section__title-style" src="{% static 'images/title-style-white.png' %}" alt="">
-    <div id="myCarousel" class="carousel container slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
 
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="carousel-content">
-            <div class="">
+<section id="achievements" class="slider slider--bg">
+  <div class="container">
+    <div class="page-section">
+      <h2 class="page-section__title">MY ACHIEVEMENTS</h2>
+      <img class="page-section__title-style" src="{% static 'images/title-style-white.png' %}" alt="">
+      
+      <div id="myCarousel" class="carousel container slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <!-- First Item -->
+          <div class="item active">
+            <div class="carousel-content">
               <div class="text-center">
                 <img class="carousel-person-image" src="{% static '/images/therapp.jpeg' %}" alt="">
-                <h4> TherApp</h4>
+                <h4 style="color: #FFAC1B; ">TherApp</h4>
                 <h6>Innovating Mental Wellness with AI</h6>
-                <p> I had the privilege of being part of a talented team that won a recent hackathon 
+                <p>I had the privilege of being part of a talented team that won a recent hackathon 
                   with our groundbreaking mental wellness application. By integrating an AI model, we
-                   developed a multilingual assistant, supporting English, Luganda, and Acholi, to offer
-                    accessible mental health support. Our innovative solution helps break language 
+                  developed a multilingual assistant, supporting English, Luganda, and Acholi, to offer
+                  accessible mental health support. Our innovative solution helps break language 
                   barriers, making personalized mental wellness assistance available to a broader 
-                  audience. </p>
+                  audience.</p>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="item">
-          <div class="carousel-content">
-            <div class="">
+          <!-- Second Item -->
+          <div class="item">
+            <div class="carousel-content">
               <div class="text-center">
                 <img class="carousel-person-image" src="{% static '/images/fintech.jpeg' %}" alt="">
-                <h4>Opportune</h4>
+                <h4 style="color: #FFAC1B; ">Opportune </h4>
                 <h6>Building Innovative Solutions for Financial Connectivity</h6>
                 <p>As part of an incredible team at the Women in FinTech Hackathon, we learned how to 
                   build an MVP in sprints while developing a platform that connects employers to 
                   employees. We integrated the Mojaloop money transaction module, enabling seamless 
                   financial transactions. Our solution also empowers entrepreneurs to showcase their
-                   products and skills, providing a bridge to the target market and promoting financial 
-                   inclusion </p>
+                  products and skills, providing a bridge to the target market and promoting financial 
+                  inclusion.</p>
               </div>
-              </div>
-
-
-              <div class="">
-                <div class="text-center">
-                  <img class="carousel-person-image" src="{% static '/images/WIF.jpg' %}" alt="">
-                  <h4>Women InFintech</h4>
-                  <h6>Building Innovative Solutions for Financial Connectivity</h6>
-                  <p>As part of an incredible team at the Women in FinTech Hackathon, we learned how to 
-                    build an MVP in sprints while developing a platform that connects employers to 
-                    employees. We integrated the Mojaloop money transaction module, enabling seamless 
-                    financial transactions. Our solution also empowers entrepreneurs to showcase their
-                     products and skills, providing a bridge to the target market and promoting financial 
-                     inclusion </p>
-                </div>
             </div>
           </div>
-        </div>
 
-        <div class="item">
-          <div class="carousel-content">
-            <div class="">
+          <!-- Third Item -->
+          <div class="item">
+            <div class="carousel-content">
+              <div class="text-center">
+                <img class="carousel-person-image" src="{% static '/images/WIF.jpg' %}" alt="">
+                <h4 style="color: #FFAC1B; ">Women InFintech</h4>
+                <h6>Building Innovative Solutions for Financial Connectivity</h6>
+                <p>As part of an incredible team at the Women in FinTech Hackathon, we learned how to 
+                  build an MVP in sprints while developing a platform that connects employers to 
+                  employees. We integrated the Mojaloop money transaction module, enabling seamless 
+                  financial transactions. Our solution also empowers entrepreneurs to showcase their
+                  products and skills, providing a bridge to the target market and promoting financial 
+                  inclusion.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fourth Item -->
+          <div class="item">
+            <div class="carousel-content">
               <div class="text-center">
                 <img class="carousel-person-image" src="{% static '/images/WEEP.jpeg' %}" alt="">
-                <h4> IDEATION CORNER-AI WEEP 2024</h4>
+                <h4 style="color: #FFAC1B; ">IDEATION CORNER-AI WEEP 2024</h4>
                 <h6>Certificate of Completion</h6>
                 <p>At Ideation Corner, I learned how AI can revolutionize entrepreneurship by automating
-                   processes, personalizing services, optimizing operations and driving innovation 
-                   across various business functions. The training spanned a period of 8 weeks </p>
-                <div class="rating">
-                </div>
+                  processes, personalizing services, optimizing operations and driving innovation 
+                  across various business functions. The training spanned a period of 8 weeks.</p>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Left and Right Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-    
-  </section>
+  </div>
+</section>
+
 
 <section id="projects" class="team">
     <div class="container">
@@ -426,10 +440,11 @@
            From web development, design & marketing software solutions, I have consistently focused on delivering high-quality, user-centered 
            results. My projects often involve collaboration with cross-functional teams, an eye for 
            detail, and a commitment to meeting both client expectations and business goals.  </p>
+
         <div class="row gutters-80">
           <div class="col-md-6 col-lg-3">
             <div class="thumbnail">
-              <img class="img-responsive" src="{% static '/images/ther.png' %}" alt="">
+              <img  src="{% static '/images/ther.png' %}" alt="" style="width: 100%; max-width: 400px; height: auto; margin: 0 auto; border-radius: 40%;">
               <h4 class="team__single-section__name">TherApp</h4>
               <p class="team__single-section__title">Flutter Framework</p>
 
@@ -450,7 +465,7 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="thumbnail">
-              <img src="{% static '/images/oppo.png' %}" alt="">
+              <img src="{% static '/images/oppo.png' %}" alt=""  style="width: 100%; max-width: 400px; height: auto; margin: 0 auto; border-radius: 40%;">
               <h4 class="team__single-section__name">Opportune </h4>
               <p class="team__single-section__title">Django</p>
               <div class="team__overlay">
@@ -468,7 +483,7 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="thumbnail">
-              <img src="{% static '/images/rescuemech.png' %}" alt="">
+              <img src="{% static '/images/rescuemech.png' %}" alt=""  style="width: 100%; max-width: 400px; height: auto; margin: 0 auto; border-radius: 40%;">
               <h4 class="team__single-section__name">Rescue Mech</h4>
               <p class="team__single-section__title">React</p>
               <div class="team__overlay">
@@ -484,7 +499,7 @@
            
           <div class="col-md-6 col-lg-3">
             <div class="thumbnail">
-              <img src="{% static '/images/asiika.png' %}" alt="">
+              <img src="{% static '/images/asiika.png' %}" alt=""style="width: 100%; max-width: 400px; height: 140px; margin: 0 auto; border-radius: 40%;">
               <h4 class="team__single-section__name">Asiika Obulamu</h4>
               <p class="team__single-section__title">Flutter</p>
               <div class="team__overlay">
@@ -509,7 +524,7 @@
     <div class="container">
       <div class="row">
         <div class="brand-logo__wrapper">
-          <li><img class="img-responsive" src="{% static '/images/dj.jpg' %}" alt=""></li>
+          <li><img class="img-responsive" src="{% static '/images/djj.png' %}" alt=""></li>
           <li><img class="img-responsive" src="{% static '/images/hcbj.png' %}" alt=""></li>
           <li><img class="img-responsive" src="{% static '/images/python.jpg' %}" alt=""></li>
           <li><img class="img-responsive" src="{% static '/images/jupyter.png' %}" alt=""></li>
@@ -570,15 +585,9 @@
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
     <div class="container text-center">
-      <!-- <div class="social-icon">
-        <ul>
-          <li><a href="https://www.linkedin.com/in/aparo-cecilia-8710bb254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="https://x.com/CecilHeavens"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://github.com/APAROCECILIA" class="github"><i class="fab fa-github"></i></a></li>
-        </ul>
-      </div> -->
-
-      <div class="social-icon">
+    
+     
+    <div class="social-icon">
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/aparo-cecilia-8710bb254" class="linkedin" target="_blank">
