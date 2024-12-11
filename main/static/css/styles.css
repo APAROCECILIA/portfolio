@@ -108,7 +108,7 @@ html,body {
 
 
 .header--bg{
-  background: url("/static/images/galaxy b.jpg") no-repeat;
+  background: url("/static/images/why.jpg") no-repeat;
   
   background-size: cover;
   background-position: center;
@@ -250,7 +250,7 @@ html,body {
 }
 
 .social-icon ul li a {
-  color: #fff;
+  color: orange;
   text-decoration: none; /* Optional: removes underline */
 }
 
@@ -326,6 +326,7 @@ letter-spacing: 1px;
   height: 2px;
   background-color: purple;
   margin: 20px 0;
+  
 }
 
 .about__bio{
@@ -373,15 +374,15 @@ letter-spacing: 1px;
 }
 
 .button--default{
-  color: #7F56FD;
-  border: 1px solid #7F56FD;
+  color: purple;
+  border: 1px solid purple;
   margin-right: 15px;
 }
 
 .button--default:hover{
-  background-color: #7F56FD;
+  background-color: #ff9800;
   color: #fff;
-  border: 1px solid #7F56FD;
+  border: 1px solid #ff9800;
 }
 
 .button--margin{
@@ -390,7 +391,7 @@ letter-spacing: 1px;
 }
 
 .portfolio__button-group .mixitup-control-active{
-  background-color: #7F56FD;
+  background-color: #ff9800;
   color: #fff;
 }
 
@@ -751,7 +752,7 @@ letter-spacing: 1px;
 
 .team__single-section__name{
   font-size: 18px;
-  color: #273f59;
+  color: #ff9800;
   padding-top: 10px;
   padding-left: 20px;
   font-weight: bold;
@@ -759,7 +760,7 @@ letter-spacing: 1px;
 
 .team__single-section__title{
   font-size: 14px;
-  color: #273f59;
+  color: purple;
   padding-bottom: 20px;
   padding-left: 20px;
 }
@@ -898,6 +899,15 @@ letter-spacing: 1px;
 }
 }
 
+.brand-logo img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brand-logo img:hover {
+  transform: translateY(10px) scale(0.95); /* Moves the image downwards */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+}
+
 .brand-logo{
 	padding-top: 90px;
 	padding-bottom: 80px;
@@ -919,7 +929,6 @@ letter-spacing: 1px;
   right: 0;
   top: 0;
   bottom: 0;
-  /* background-color: rgba(120, 88, 221, .9); */
   z-index: -1;
 }
 
@@ -971,18 +980,18 @@ letter-spacing: 1px;
   width: 100%;
 }
 
-.blog__single__date{
+/* .blog__single__date{
   font-size: 15px;
   color: #273f59;
   font-family: Roboto-Light;
   font-weight: bold;
   padding-top: 30px;
   display: inline-block;
-}
+} */
 
 .blog__single__title{
   font-size: 18px;
-  color: #273f59;
+  color: #ff9800;
   font-weight: bold;
   padding: 15px 0;
 }
@@ -994,9 +1003,9 @@ letter-spacing: 1px;
   line-height: 1.8;
 }
 
-.blog__single__paragraph--read-more{
+/* .blog__single__paragraph--read-more{
  color: #7f56fd;
-}
+} */
 
 @media (max-width: 991px) {
   .blog .thumbnail{
@@ -1010,12 +1019,11 @@ letter-spacing: 1px;
 }
 
 .footer--bg{
-  background-color: #27353B;
+  background-color: #432B7A;
 }
 
 .footer__title{
   font-size: 30px;
-  color: #fff;
   font-family: Roboto-Light;
   font-weight: bold;
   margin-bottom: 40px;
@@ -1027,7 +1035,7 @@ letter-spacing: 1px;
 
 .footer__contact-information li a{
   font-size: 15px;
-  color: #9ca1a3;
+  color: orange;
   padding-right: 30px;
   padding-left: 30px;
   padding-bottom: 10px;

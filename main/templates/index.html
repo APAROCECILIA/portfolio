@@ -79,7 +79,7 @@
       <div class="page-section">
         <h2 class="page-section__title">ABOUT ME</h2>
       
-        <img class="page-section__title-style" src="{% static 'images/title-style.png' %}" alt="">
+        <img class="page-section__title-style" src="{% static 'images/title-style-purple.png' %}" alt="">
       
 
         <p class="page-section__paragraph">
@@ -99,7 +99,7 @@
           <div class="row gutters-80">
             <div class="col-md-4">
               <div class="about__image">
-                <img src="{% static 'images/soft.jpg' %}" alt="" style="margin-top: 100px;">
+                <img src="{% static 'images/soft.jpg' %}" alt="" style="margin-top: 140px; padding-left: 50px;">
 
               </div>
             </div>
@@ -145,7 +145,7 @@
     <div class="container skill__container--narrow">
       <div class="page-section">
         <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
-        <img class="page-section__title-style" src="{% static 'images/title-style-white.png' %}" alt="">
+        <img class="page-section__title-style" src="{% static 'images/title-style-orange.png' %}" alt="">
         <p class="page-section__paragraph page-section__paragraph--white">I am a versatile tech
            enthusiast with expertise in UI/UX design using Figma, web development in Django, and
             graphics design powered by AI tools. My skills extend to data visualization and analysis 
@@ -191,7 +191,7 @@
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY SERVICES</h2>
-        <img class="page-section__title-style" src="{% static '/images/title-style.jpg' %} " alt="">
+        <img class="page-section__title-style" src="{% static '/images/title-style-purple.png' %} " alt="">
         <p class="page-section__paragraph">From crafting intuitive UI/UX designs and developing dynamic
            Django-powered web applications to delivering insightful data visualizations, my services are 
            tailored to turn ideas into impactful solutions. Let’s bring your vision to life! </p>
@@ -226,17 +226,17 @@
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY PORTFOLIO</h2> 
-        <img class="page-section__title-style" src="{% static '/images/title-style.png' %}" alt="">
+        <img class="page-section__title-style" src="{% static '/images/title-style-purple.png' %}" alt="">
         <p class="page-section__paragraph">My journey is enriched by attending various tech events,
            workshops, and conferences, where I’ve gained valuable knowledge and hands-on experience. 
            These experiences have shaped my skills in web development, data analysis, and UI/UX design, 
            fueling my passion for continuous learning and innovation.</p>
         <div class="portfolio__button-group">
-          <a class="button button--default" data-filter="all" href="#">ALL</a>
-          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
-          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
-          <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
-          <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
+          <!-- <a class="button button--default" data-filter="all" href="#">ALL</a> -->
+          <a class="button button--default" data-filter=".category-a" href="#">Languages & Frameworks</a>
+          <a class="button button--default" data-filter=".category-b" href="#">Internship</a>
+          <a class="button button--default" data-filter=".category-c" href="#">Tech Communities</a>
+          <a class="button button--default" data-filter=".category-d" href="#">Skill Building</a>
         </div>
         <div class="row gutters-40">
           <div class="col-md-4">
@@ -335,7 +335,7 @@
   <div class="container">
     <div class="page-section">
       <h2 class="page-section__title">MY ACHIEVEMENTS</h2>
-      <img class="page-section__title-style" src="{% static 'images/title-style-white.png' %}" alt="">
+      <img class="page-section__title-style" src="{% static 'images/title-style-orange.png' %}" alt="">
       
       <div id="myCarousel" class="carousel container slide" data-ride="carousel">
         <!-- Indicators -->
@@ -434,7 +434,7 @@
       <div class="page-section">
         <div class="row g-3">
         <h2 class="page-section__title">PROJECTS</h2>
-        <img class="page-section__title-style" src="{% static '/images/title-style.png' %}" alt="">
+        <img class="page-section__title-style" src="{% static '/images/title-style-purple.png' %}" alt="">
         <p class="page-section__paragraph">Throughout my career, I have had the opportunity to work on 
           a diverse range of projects that showcase my skills and passion for problem-solving.
            From web development, design & marketing software solutions, I have consistently focused on delivering high-quality, user-centered 
@@ -520,25 +520,38 @@
     </body>
   </section>
 
-  <section class="brand-logo brand-logo--bg">
-    <div class="container">
-      <div class="row">
-        <div class="brand-logo__wrapper">
-          <li><img class="img-responsive" src="{% static '/images/djj.png' %}" alt=""></li>
-          <li><img class="img-responsive" src="{% static '/images/hcbj.png' %}" alt=""></li>
-          <li><img class="img-responsive" src="{% static '/images/python.jpg' %}" alt=""></li>
-          <li><img class="img-responsive" src="{% static '/images/jupyter.png' %}" alt=""></li>
-          <li><img class="img-responsive" src="{% static '/images/figma.png' %}" alt=""></li>
-        </div>
+
+<section class="brand-logo brand-logo--bg py-5">
+  <div class="container">
+    <div class="brand-logo__wrapper">
+      <div class="col-7 col-sm-3 col-md-2">
+        <img class="img-fluid" src="{% static 'images/djj.png' %}" alt="DJJ">
+      </div>
+      <div class="col-7 col-sm-3 col-md-2">
+        <img class="img-fluid" src="{% static 'images/hcbj.png' %}" alt="HCBJ">
+      </div>
+      <div class="col-7 col-sm-3 col-md-2">
+        <img class="img-fluid" src="{% static 'images/python.jpg' %}" alt="Python">
+      </div>
+      <div class="col-7 col-sm-3 col-md-2">
+        <img class="img-fluid" src="{% static 'images/jupyter.png' %}" alt="Jupyter">
+      </div>
+      <div class="col-7 col-sm-3 col-md-2">
+        <img class="img-fluid" src="{% static 'images/figma.png' %}" alt="Figma">
+      </div>
+      <div class="col-7 col-sm-3 col-md-2">
+        <img class="img-fluid" src="{% static 'images/visio.jpg' %}" alt="Figma">
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <section  id="tech-groups" class="blog">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">TECH-GROUPS</h2>
-        <img class="page-section__title-style" src="{% static '/images/title-style.png' %}" alt="">
+        <img class="page-section__title-style" src="{% static '/images/title-style-purple.png' %}" alt="">
         <p class="page-section__paragraph">I am actively involved in several tech communities that 
           promote learning, networking, and collaboration within the technology space. Each group 
           fosters unique opportunities to develop skills, connect with like-minded individuals and 
@@ -562,11 +575,11 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="thumbnail text-center">
+            <div class="thumbnail text-center"   style="padding: 5px; height: auto; max-height: 521px; overflow: hidden;">
               <img src="{% static '/images/GDSC.jpeg' %}" alt="">
              
               <a href="#"><h4 class="blog__single__title">GDSC MAKERERE</h4></a>
-              <p class="blog__single__paragraph">  The Google Developer Student Club (GDSC) at Makerere University focus on peer-to-peer learning and building real-world solutions. Activities include coding sessions, hackathons, and projects to empower students with technical and leadership skills for solving community challenges. </p>
+              <p class="blog__single__paragraph">  The GDSC at Makerere University focus on peer-to-peer learning and building real-world solutions. Activities include coding sessions & projects to empower students with technical and leadership skills for solving community challenges. </p>
             </div>
           </div>
         </div>
@@ -576,7 +589,7 @@
 
   <footer class="footer footer--bg">
     <div class="container text-center">
-      <h1 class="footer__title">CECILIA</h1>
+      <h1 class="footer__title" style="color: orange">CECILIA</h1>
       <ul class="footer__contact-information">
         <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+256) 776178913</a></li>
         <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> aparocecilia930@gmail.com</a></li>
@@ -612,6 +625,7 @@
       <p class="footer__paragraph">Copyright &copy; 2024 AparoCecilia , All Rights Reserved.</p>
     </div>
   </footer>
+
 </div>
 
 
