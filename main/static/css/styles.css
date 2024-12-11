@@ -584,13 +584,13 @@ letter-spacing: 1px;
  font-weight: bold;
 }
 
-.portfolio__single-section__search-icon{
+/* .portfolio__single-section__search-icon{
  position: absolute;
  left: 45%;
  top: 50%;
  -webkit-transform: translateY(-50%);
  transform: translateY(-50%);
-}
+} */
 
 .portfolio__single-section .overlay-content{
   position: absolute;
@@ -916,7 +916,7 @@ letter-spacing: 1px;
 }
 
 .brand-logo--bg{
-  background: url("/static/images/skill-background.jpg") no-repeat;
+  background: url("/static/images/skill-background1.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;

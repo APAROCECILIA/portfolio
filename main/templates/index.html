@@ -33,7 +33,7 @@
           <ul class="nav navbar-nav">
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skill">SKILL</a></li> 
+            <li><a href="#skill">SKILLS</a></li> 
             <li><a href="#portfolio">PORTFOLIO</a></li> 
             <li><a href="#achievements">ACHIEVEMENTS</a></li> 
             <li><a href="#projects">PROJECTS</a></li> 
@@ -99,7 +99,7 @@
           <div class="row gutters-80">
             <div class="col-md-4">
               <div class="about__image">
-                <img src="{% static 'images/soft.jpg' %}" alt="" style="margin-top: 140px; padding-left: 50px;">
+                <img src="{% static 'images/m.png' %}" alt="" style="margin-top: 50px; padding-left: 50px;">
 
               </div>
             </div>
@@ -112,12 +112,12 @@
 
               <div class="row row--margin-top">
                 <div class="col-md-4">
-                  <p class="about__bio"><strong>NAME :</strong>APARO CECILIA</p>
-                  <p class="about__bio"><strong>AGE :</strong> 23</p>
+                  <p class="about__bio"><strong style="color:#7b08ff">NAME :</strong>APARO CECILIA</p>
+                  <p class="about__bio"><strong style="color:#7b08ff">AGE :</strong> 23</p>
                 </div>
                 <div class="col-md-4">
-                  <p class="about__bio"><strong>JOB TITLE :</strong> OPERATIONS OFFICER</p>
-                  <p class="about__bio"><strong>LOCATION :</strong>KAMPALA, UG</p>
+                  <p class="about__bio"><strong  style="color:#7b08ff">JOB TITLE :</strong> OPERATIONS OFFICER</p>
+                  <p class="about__bio"><strong  style="color:#7b08ff">LOCATION :</strong>KAMPALA, UG</p>
                 </div>
               </div>
 
@@ -144,7 +144,7 @@
   <section id="skill" class="skill skill--bg">
     <div class="container skill__container--narrow">
       <div class="page-section">
-        <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
+        <h2 class="page-section__title page-section__title--white">MY SKILLS</h2>
         <img class="page-section__title-style" src="{% static 'images/title-style-orange.png' %}" alt="">
         <p class="page-section__paragraph page-section__paragraph--white">I am a versatile tech
            enthusiast with expertise in UI/UX design using Figma, web development in Django, and
@@ -232,7 +232,7 @@
            These experiences have shaped my skills in web development, data analysis, and UI/UX design, 
            fueling my passion for continuous learning and innovation.</p>
         <div class="portfolio__button-group">
-          <!-- <a class="button button--default" data-filter="all" href="#">ALL</a> -->
+          <a class="button button--default" data-filter="all" href="#">ALL</a>
           <a class="button button--default" data-filter=".category-a" href="#">Languages & Frameworks</a>
           <a class="button button--default" data-filter=".category-b" href="#">Internship</a>
           <a class="button button--default" data-filter=".category-c" href="#">Tech Communities</a>
@@ -240,87 +240,108 @@
         </div>
         <div class="row gutters-40">
           <div class="col-md-4">
-            <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
-              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/portfolio-1.png' %}" alt="">
+            <div class="portfolio__single-section mix category-a " data-order="1">
+              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/1.jpeg' %}" alt="">
               <div class="portfolio__single-section__overlay">
                 <div class="overlay-content">
                   <h4>LOGO DESIGN</h4>
                   <p>Designer</p>
                 </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="{% static '/images/search-icon.png' %}" alt=""></a>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="portfolio__single-section mix category-a category-c" data-order="2">
-              <img class="portfolio__single-section__image img-responsive" src="{%static '/images/portfolio-2.png' %}" alt="">
+            <div class="portfolio__single-section mix category-b" data-order="2">
+              <img class="portfolio__single-section__image img-responsive" src="{%static '/images/2.jpeg' %}" alt="">
               <div class="portfolio__single-section__overlay">
                 <div class="overlay-content">
                   <h4>WEBSITE DESIGN</h4>
                   <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="{% static '/images/search-icon.png' %}" alt=""></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="portfolio__single-section mix category-c" data-order="3">
-              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/portfolio-3.png' %}" alt="">
+              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/3.jpeg' %}" alt="">
               <div class="portfolio__single-section__overlay">
                 <div class="overlay-content">
                   <h4>LOGO DESIGN</h4>
                   <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="{% static '/images/search-icon.png' %}" alt=""></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- ........................ -->
+
         <div class="row gutters-40">
           <div class="col-md-4">
-            <div class="portfolio__single-section mix category-b category-d" data-order="4">
-              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/portfolio-4.png' %}" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>PHOTOGRAPHY</h4>
-                  <p>photographer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="{% static '/images/search-icon.png' %}" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-b category-d" data-order="5">
-              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/portfolio-5.png' %}" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>WEBSITE DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="{% static '/images/search-icon.png' %}" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-d" data-order="6">
-              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/portfolio-6.png' %}" alt="">
+            <div class="portfolio__single-section mix category-d" data-order="1">
+              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/a.jpeg' %}" alt="">
               <div class="portfolio__single-section__overlay">
                 <div class="overlay-content">
                   <h4>LOGO DESIGN</h4>
                   <p>Designer</p>
                 </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="{% static '/images/search-icon.png' %}" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-a " data-order="2">
+              <img class="portfolio__single-section__image img-responsive" src="{%static '/images/2.jpeg' %}" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>WEBSITE DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-b" data-order="3">
+              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/3.jpeg' %}" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>LOGO DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- ........................... -->
+        <div class="row gutters-40">
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-c" data-order="4">
+              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/4.jpeg' %}" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>PHOTOGRAPHY</h4>
+                  <p>photographer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix  category-d" data-order="5">
+              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/3.jpeg.png' %}" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>WEBSITE DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-a" data-order="6">
+              <img class="portfolio__single-section__image img-responsive" src="{% static '/images/2.jpeg' %}" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>LOGO DESIGN</h4>
+                  <p>Designer</p>
                 </div>
               </div>
             </div>
