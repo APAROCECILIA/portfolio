@@ -8,9 +8,24 @@ https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/
 """
 
 import os
+import sys
+
+
+
+project_home = '/home/cecilheavens/portfolio'
+if project_home not in sys.path:
+    sys.path.append(project_home)
+
+
+
+
 
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
 
 application = get_wsgi_application()
+
+
+
+
