@@ -362,14 +362,14 @@ letter-spacing: 1px;
 }
 
 .button:hover{
- color: purple;
+ color: #ff9800;
 }
 
 .button--colorful{
- background-color: #ff9800;
+ background-color: purple;
  font-family: Roboto-Light;
  color: #fff;
- border: 1px solid purple;
+ border: 1.5px solid  #ff9800;
  
 }
 
@@ -733,8 +733,8 @@ letter-spacing: 1px;
 .team .thumbnail{
   padding: 0;
   border: none;
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.34);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(255, 155, 4, 0.34);
+  box-shadow: 0px 1px 10px 0px rgba(255, 188, 4, 0.34);
   border-radius: 10px;
   position: relative;
 }
