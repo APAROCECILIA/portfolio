@@ -108,7 +108,7 @@ html,body {
 
 
 .header--bg{
-  background: url("/static/images/why.jpg") no-repeat;
+  background: url("/static/images/bg .jpg") no-repeat;
   
   background-size: cover;
   background-position: center;
@@ -421,7 +421,7 @@ letter-spacing: 1px;
 }
 
 .skill--bg{
-  background: url("/static/images/banner.jpg") no-repeat;
+  background: url("/static/images/s.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -657,7 +657,7 @@ letter-spacing: 1px;
 
 
 .slider--bg{
-  background: url("/static/images/why.jpg") no-repeat;
+  background: url("/static/images/a.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
