@@ -108,7 +108,7 @@ html,body {
 
 
 .header--bg{
-  background: url("/static/images/bg .jpg") no-repeat;
+  background: url("/static/images/c (1).jpg") no-repeat;
   
   background-size: cover;
   background-position: center;
@@ -143,20 +143,20 @@ html,body {
 .header__content__block{
   font-size: 50px;
   font-weight: bold;
-  color: #ff9800;
+  color: #FF8C00;
 }
 
 .header__content__title{
   font-size: 50px;
   font-weight: bold;
-  color: #ff9800;
+  color: #FF8C00;
   margin-top: 0;
 }
 
 .header__content__sub-title li{
   display: inline-block;
   font-size: 15px;
-  color: #ff9800 ;
+  color: #FF8C00;
 }
 
 .header__content__sub-title .padding{
@@ -166,7 +166,7 @@ html,body {
 
 .header__button{
   padding: 11px 30px;
-  background-color:  #ff9800;
+  background-color:  #B19CD9;
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
@@ -194,7 +194,7 @@ html,body {
 
 .navbar-nav li a:hover {
   transform: translateY(-5px); /* Moves the item upward by 5px */
-  color: whitesmoke; /* Change color on hover */
+  color: #B19CD9; /* Change color on hover */
 }
 
 
@@ -387,14 +387,14 @@ letter-spacing: 1px;
 }
 
 .button:hover{
- color: #ff9800;
+ color: purple;
 }
 
 .button--colorful{
- background-color: purple;
+ background-color: #6a0dad;
  font-family: Roboto-Light;
  color: #fff;
- border: 1.5px solid  #ff9800;
+ border: 1.5px solid  #B19CD9;
  
 }
 
@@ -405,9 +405,9 @@ letter-spacing: 1px;
 }
 
 .button--default:hover{
-  background-color: #ff9800;
+  background-color: purple;
   color: #fff;
-  border: 1px solid #ff9800;
+  border: 1px solid purple;
 }
 
 .button--margin{
@@ -934,13 +934,13 @@ letter-spacing: 1px;
 
 .brand-logo{
 	padding-top: 90px;
-	padding-bottom: 80px;
+	padding-bottom: 100px;
   
   max-width: 100%;
 }
 
 .brand-logo--bg{
-  background: url("/static/images/skill-background1.jpg") no-repeat;
+  background: url("/static/images/icons.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
