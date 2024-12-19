@@ -959,45 +959,46 @@ letter-spacing: 1px;
 
 
 
+
+
 /* .brand-logo__wrapper {
   max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;           /* Flex container 
-  flex-wrap: wrap;         /* Allow items to wrap 
-  gap: 10px;               /* Add spacing between items 
+  display: flex;           
+  flex-wrap: nowrap;       
+  justify-content: space-between; 
+  gap: 10px;               
 } */
 
-
-.brand-logo__wrapper {
-  max-width: 1400px;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;           /* Flexbox for larger screens */
-  flex-wrap: nowrap;       /* Prevent wrapping */
-  justify-content: space-between; /* Distribute items evenly */
-  gap: 10px;               /* Space between items */
-}
-
-
+/* 
 .brand-logo__wrapper > * {
-  flex: 0 0 auto;          /* Items size based on content */
+  flex: 0 0 auto;          
   box-sizing: border-box;
-}
+} */
 
-
+/* 
 @media (max-width: 600px) {
   .brand-logo__wrapper {
-    display: grid;          /* Grid for small screens */
-    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-    gap: 10px;              /* Space between grid items */
-    justify-items: center;  /* Center items horizontally */
+    display: grid;         
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;              
+    justify-items: center; 
   }
 
   .brand-logo__wrapper > * {
-    width: 100%;            /* Ensure child items adapt properly */
+    width: 100%;            
+  }
+} */
+
+@media (max-width: 575px) { /* For phones (extra small screens) */
+  .col-6 {
+    flex: 0 0 50%; /* Forces 50% width (2 per row) */
+    max-width: 50%;
   }
 }
+
+
 
 
 .blog .thumbnail{
